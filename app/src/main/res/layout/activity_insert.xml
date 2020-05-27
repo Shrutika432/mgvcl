@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insert">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        //17BCA093
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            //17BCA093
+            <ImageView
+                android:id="@+id/Imageinsert"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ui"></ImageView>
+            <TextView
+                android:id="@+id/TextVolunteerForm"
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="Insert Electricity Bill Details"
+                android:textAlignment="center"
+                android:textColor="#0C0C0C"
+                android:textSize="25dp"
+                android:textStyle="bold">
+                //17BCA093
+            </TextView>
+            <EditText
+                android:id="@+id/etCno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:background="@drawable/textfileds"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp"
+                android:padding="15dp"
+                android:layout_marginBottom="23dp"
+                android:inputType="number"
+                android:hint=" Enter Customer No" />
+            //17BCA093
+            <EditText
+                android:id="@+id/etCname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:background="@drawable/textfileds"
+                android:layout_marginBottom="23dp"
+                android:hint="Enter Customer Name"
+                android:inputType="text" />
+            //17BCA093
+            <EditText
+                android:id="@+id/etNoOfunitsConsumed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:background="@drawable/textfileds"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginBottom="23dp"
+                android:hint="Enter Consumed Units"
+                android:inputType="number" />
+            //17BCA093
+            <EditText
+                android:id="@+id/etPricePerUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:background="@drawable/textfileds"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginBottom="23dp"
+                android:hint="Enter Price Per Unit"
+                android:inputType="number" />
+            //17BCA093
+            <Button
+                android:id="@+id/BtnInsertDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="135dp"
+                android:layout_marginBottom="25dp"
+                android:hint="Insert"
+                android:background="@drawable/btn_style"
+                android:textAllCaps="false"
+                android:textColorLink="#fff"
+                android:textSize="21dp" />
+            //17BCA093
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
